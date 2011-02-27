@@ -1,0 +1,15 @@
+AUTHOR: 	Stefano Viola (aka estebanSannin)
+CONTACT:	stefanoviola85@gmail.com
+
+Programmazione2: uniq
+
+USAGE uniq [option] [file]
+
+OPTION:
+-c	Ogni riga viene preceduta dal numero di occorrenze
+-d	Scarta le linee che non sono ripetute
+-u	Scarta completamente le linee ripetute
+
+EXAMPLE:
+uniq -c file
+		
